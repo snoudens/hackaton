@@ -1,0 +1,91 @@
+body{
+background: linear-gradient(45deg, #5256FF, #87CAE8);
+font-family: 'Lora', serif;
+color: #FFFFFF;
+font-size: 1.5vw;
+}
+
+.container{
+	padding: 5vw;
+}
+.title{
+	margin-top: 45px;
+	padding: 10px;
+
+	text-align: center;
+	margin:0 auto;
+}
+
+.main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.includes{
+	font-size: 2vw;
+}
+.textprize{
+	
+}
+
+.imgprize{
+	width: 6vw;
+	height: 10vw;
+}
+
+.logo{
+	width: 13.5vw;
+	height: 4.8vw;
+}
+
+.header{
+	margin: 2vw;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr ;
+	font-size: 1.5vw;
+	text-align: center;
+	padding: 1vw;
+
+	
+
+}
+
+.blocks_inform{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-auto-rows: minmax(20vw, auto);
+	text-align: center;
+	grid-gap: 4vw;
+	padding: 0px;
+	margin: 0px;
+}
+
+.block{
+	background: linear-gradient(45deg, #08AAF2, #D1D2FF);
+	border-radius: 20px;
+}
+.information{
+	padding: 4vw;
+	width: 70vw;
+	margin: 0 auto;
+	padding-bottom: 2vw;
+}
+
+.title_inform{
+	text-align: center;
+	margin: 2vw;
+	font-size: 1.5vw;
+}
+
+
+.send{
+	width: 70vw;
+	padding-left: 1vw;
+	text-align: center;
+	margin: 0 auto	;
+}
+.form-control{
+margin-bottom: 1vw;
+}
